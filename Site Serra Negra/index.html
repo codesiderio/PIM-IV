@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- normalização -->
+   <link rel="stylesheet" href="./css/normalize.css" />
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" 
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Serra Negra</title>
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    
+    <div id="navbar" class="navbar">
+        <a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="#restaurante"><i class="fas fa-coffee"></i> Restaurante</a>
+        <a href="#quartos"><i class="fas fa-bed"></i> Quartos</a>
+        <a href="#contato"><i class="fa fa-fw fa-envelope"></i> Contato</a>
+        
+        
+    </div>
+    
+            <!-- secção -->
+        <div class="pimg1">
+            <div class="ptext">
+                <span class="border">
+                    Hotel Serra Negra
+                </span>
+            </div>
+        </div>
+
+        <section class="section section-light">
+            <h2>Hotel</h2>
+            <p>
+                O Hotel Serra Negra possui mais de 60 anos de tradição e qualidade
+            </p>
+        </section>  
+
+        <!-- fim da secção -->
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Topo</button>
+        <!-- secção -->
+        <div class="pimg2">
+            <div class="ptext">
+                <span class="border-trans">
+                    Lazer
+                </span>
+            </div>
+        </div>
+
+        <section class="section section-dark">
+            <h2>Lazer</h2>
+            <p>
+                Venha aproveitar a beleza natural de Brotas em um confortável hotel nas colinas
+            </p>
+        </section> 
+        <!-- fim da secção -->
+    <!-- secção -->
+        <div class="pimg3">
+            <div class="ptext">
+                 <a id="restaurante"><span class="border-trans">
+                    Restaurante
+                    </span>
+                 </a>
+            </div>
+        </div>
+
+        <section class="section section-dark">
+            <h2>Restaurante</h2>
+            <p>
+                Abrimos no Café da Manhã das 6h às 10h e no jantar das 18:30h às 21h30, com a produção própria dos pratos, pães quentinhos, buffet variado, com qualidade e frescor.
+            </p>
+        </section> 
+        <!-- fim da secção -->
+    <!-- secção -->
+        <div class="pimg4">
+           
+        </div>
+       
+        <!-- fim da secção -->
+        <!-- quartos -->
+        
+            <section class="section section-dark">
+              <a id="quartos"> <h2>Quartos</h2></a> 
+                <p>Nossos quartos incluem: Ar condicionado, TV, telefone, frigobar e Wi-Fi</p>
+                <div class="row">
+                    <div class="quarto" id="quarto-single">
+                        <h2>Quarto single</h2>
+                        
+                    </div>
+                    <div class="quarto" id="quarto-duplo">
+                        <h2>Quarto duplo</h2>
+                        <p>Camas King size</p>
+                        <p>Mobiliário diferenciado</p>
+                        <p>Secador de cabelos</p>
+                        
+                    </div>
+                    <div class="quarto" id="quarto-casal">
+                        <h2>Quarto casal</h2>
+                        <p>Cama Queen size</p>
+                        <p>Mobiliário diferenciado</p> 
+                        <p>Sacada</p> 
+                        <p>Banheira</p> 
+                        <p>Secador de cabelos</p> 
+                    </div>
+                </div>
+            </section>
+        <!-- fim quartos -->
+        <!-- contato -->
+        <div class="container">
+            <form action="action_page.php">
+                <a id="contato"><h2>Contato</h2></a>
+          
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome...">
+          
+              <label for="sobrenome">Sobrenome</label>
+              <input type="text" id="sobrenome" name="sobrenome" placeholder="Sobrenome..">
+          
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="voce@voce.com.br">  
+
+              <label for="subject">Assunto</label>
+              <textarea id="subject" name="subject" placeholder="Escreva algo..." style="height:200px"></textarea>
+          
+              <input type="submit" value="Enviar">
+          
+            </form>
+        </div>
+        <!-- fim contato -->
+        <!-- secção -->
+        <div class="pimg5">
+            <div class="ptext">
+                <span class="border">
+                    Brotas
+                </span>
+            </div>
+        </div>
+        <!-- fim da secção -->
+        <!-- footer -->
+        <footer class="page-footer">
+            <p>&copy; <span id ="date"></span>
+        <span class="footer-logo">Hotel Serra Negra.</span>
+            Feito por Grupo 7
+        </p>
+        </footer>
+        
+    <!-- fim da secção -->
+    
+   
+    <script src="./js/app.js"></script>
+</body>
+</html>
